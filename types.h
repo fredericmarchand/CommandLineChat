@@ -23,16 +23,6 @@
 
 #define MY_PORT 63720
 
-
-
-
 //Function prototypes 
-void  funMessage(int);
 void  setupConnection(int *myListenSocket, int *clientSocket, int myPort);
-char* toLowerCase(char *word);
-void  askedLetter(char *letter, char *word, int letterSpots[]);
 void  establishConnection(int *mySocket, char* SERVER_IP, int myPort);
-int   wordOrLetter(char *letter);
-int   winOrLose(int *letterSpots, char *word);
-void  empty(char *string);
-
